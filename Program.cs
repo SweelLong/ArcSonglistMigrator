@@ -3,32 +3,36 @@ using System.Text.Json;
 
 namespace ArcSonglistMigrator
 {
+    /// <summary>
+    /// The core of this application.
+    /// </summary>
     public class Program
     {
-        public static void Main()
+        public static void Main(string[] args)
         {
             try
             {
+                Console.Title = "ArcSonglistMigrator";
                 Console.WriteLine("Welcome to ArcSonglistMigrator, a tool designed to migrate and allocate songlist from apk to ipa.\nPlease type the path of songlist(\\assets\\songs\\songlist): ");
-                string jsonFilePath = Console.ReadLine();
+                string jsonFilePath = (args.Length > 0) ? args[0] : Console.ReadLine() ?? "";
                 string jsonContent = File.ReadAllText(jsonFilePath);
                 RootObject? root = JsonSerializer.Deserialize<RootObject>(jsonContent);
                  // Store song information by id key.
                 Dictionary<string, Song> songDictionary = [];
-                foreach (var song in root.songs)
+                if (root is not null) foreach (var song in root.songs)
                 {
-                    // song.SetDefaultValues();
-                    if(song.id == "random" || song.id == "tutorial")
+                    /* song.SetDefaultValues();*/
+                    if (song.id == "random" || song.id == "tutorial")
                     {
                         continue;
                     }
-                    //foreach (var s in song.difficulties)
-                    //{
-                    //    if (s.rating == 0 || s.rating == -1)
-                    //    {
-                    //        s.rating = 0;
-                    //    }
-                    //}
+                    foreach (var s in song.difficulties)
+                    {
+                        if (s.rating == 0 || s.rating == -1)
+                        {
+                            s.rating = 0;
+                        }
+                    }
                     songDictionary[song.id] = song;
                 }
                 // Output song information.
@@ -36,8 +40,8 @@ namespace ArcSonglistMigrator
                 {
                     Console.WriteLine($"Song ID: {entry.Key}, Title: {entry.Value.title_localized["en"]}");
                 }
-                Console.WriteLine("Well Done! All information has been successfully stored!\nPlease wait for a moment and proceed to the next.");
-                Thread.Sleep(5000);
+                Console.WriteLine("Well Done! All information has been successfully stored!\nPlease wait for a moment...");
+                Thread.Sleep(2000);
                 string outputFolder = Path.GetDirectoryName(jsonFilePath) ?? "";
                 // Read each song and output it as a songlist file
                 JsonSerializerOptions options = new()
@@ -45,20 +49,18 @@ namespace ArcSonglistMigrator
                     // Set not to escape non-ASCII characters.
                     Encoder = System.Text.Encodings.Web.JavaScriptEncoder.UnsafeRelaxedJsonEscaping,
                     WriteIndented = true,
-                    DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingDefault
+                    DefaultIgnoreCondition = System.Text.Json.Serialization.JsonIgnoreCondition.WhenWritingNull
               
                 };
-                //List<Song> songList = [.. songDictionary.Values];
-                //RootObject outputRoot = new()
-                //{
-                //    songs = songList
-                //};
-                //File.WriteAllText(jsonFilePath, JsonSerializer.Serialize(outputRoot, options), Encoding.UTF8);
+                List<Song> songList = [.. songDictionary.Values];
+                RootObject outputRoot = new()
+                {
+                    songs = songList
+                };
+                File.WriteAllText(jsonFilePath, JsonSerializer.Serialize(outputRoot, options), Encoding.UTF8);
                 foreach (var entry in songDictionary)
                 {
                     Song song = entry.Value;
-                    song.set = "base";
-                    //song.bg = "";
                     foreach(var s in song.difficulties)
                     {
                         if(s.rating == 0 || s.rating == -1)
@@ -75,7 +77,7 @@ namespace ArcSonglistMigrator
                     File.WriteAllText(outputFilePath, outputJson);
                     Console.WriteLine($"Song : \"{song.id}\" has been written to {outputFilePath}.");
                 }
-                Console.WriteLine("Everything goes well!");
+                Console.Write("Everything goes well...");
                 Console.ReadKey();
             }
             catch (Exception ex)

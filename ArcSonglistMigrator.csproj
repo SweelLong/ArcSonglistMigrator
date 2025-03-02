@@ -7,6 +7,11 @@
     <Nullable>enable</Nullable>
     <Authors>SweelLong</Authors>
     <Company>SweelLong</Company>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Content Include="icon.ico" />
+  </ItemGroup>
 
 </Project>

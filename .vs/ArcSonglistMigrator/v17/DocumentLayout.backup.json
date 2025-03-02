@@ -3,24 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\SweelLong\\\u684C\u9762\\ArcSonglistMigrator\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA918546-E030-44C8-AF40-69D03F35745F}|ArcSonglistMigrator.csproj|c:\\users\\sweellong\\\u684C\u9762\\arcsonglistmigrator\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA918546-E030-44C8-AF40-69D03F35745F}|ArcSonglistMigrator.csproj|solutionrelative:song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA918546-E030-44C8-AF40-69D03F35745F}|ArcSonglistMigrator.csproj|c:\\users\\sweellong\\\u684C\u9762\\arcsonglistmigrator\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA918546-E030-44C8-AF40-69D03F35745F}|ArcSonglistMigrator.csproj|solutionrelative:difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA918546-E030-44C8-AF40-69D03F35745F}|ArcSonglistMigrator.csproj|c:\\users\\sweellong\\\u684C\u9762\\arcsonglistmigrator\\rootobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA918546-E030-44C8-AF40-69D03F35745F}|ArcSonglistMigrator.csproj|solutionrelative:rootobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA918546-E030-44C8-AF40-69D03F35745F}|ArcSonglistMigrator.csproj|c:\\users\\sweellong\\\u684C\u9762\\arcsonglistmigrator\\song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA918546-E030-44C8-AF40-69D03F35745F}|ArcSonglistMigrator.csproj|solutionrelative:song.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA918546-E030-44C8-AF40-69D03F35745F}|ArcSonglistMigrator.csproj|c:\\users\\sweellong\\\u684C\u9762\\arcsonglistmigrator\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA918546-E030-44C8-AF40-69D03F35745F}|ArcSonglistMigrator.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA918546-E030-44C8-AF40-69D03F35745F}|ArcSonglistMigrator.csproj|c:\\users\\sweellong\\\u684C\u9762\\arcsonglistmigrator\\difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA918546-E030-44C8-AF40-69D03F35745F}|ArcSonglistMigrator.csproj|solutionrelative:difficulty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA918546-E030-44C8-AF40-69D03F35745F}|ArcSonglistMigrator.csproj|c:\\users\\sweellong\\\u684C\u9762\\arcsonglistmigrator\\arcsonglistmigrator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{FA918546-E030-44C8-AF40-69D03F35745F}|ArcSonglistMigrator.csproj|solutionrelative:arcsonglistmigrator.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+      "AbsoluteMoniker": "D:0:0:{FA918546-E030-44C8-AF40-69D03F35745F}|ArcSonglistMigrator.csproj|c:\\users\\sweellong\\\u684C\u9762\\arcsonglistmigrator\\rootobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA918546-E030-44C8-AF40-69D03F35745F}|ArcSonglistMigrator.csproj|solutionrelative:rootobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,58 +26,45 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "ArcSonglistMigrator",
-              "DocumentMoniker": "C:\\Users\\SweelLong\\\u684C\u9762\\ArcSonglistMigrator\\ArcSonglistMigrator.csproj",
-              "RelativeDocumentMoniker": "ArcSonglistMigrator.csproj",
-              "ToolTip": "C:\\Users\\SweelLong\\\u684C\u9762\\ArcSonglistMigrator\\ArcSonglistMigrator.csproj",
-              "RelativeToolTip": "ArcSonglistMigrator.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-03-02T06:19:44.501Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "Difficulty.cs",
               "DocumentMoniker": "C:\\Users\\SweelLong\\\u684C\u9762\\ArcSonglistMigrator\\Difficulty.cs",
               "RelativeDocumentMoniker": "Difficulty.cs",
               "ToolTip": "C:\\Users\\SweelLong\\\u684C\u9762\\ArcSonglistMigrator\\Difficulty.cs",
               "RelativeToolTip": "Difficulty.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-01T11:53:07.451Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Song.cs",
               "DocumentMoniker": "C:\\Users\\SweelLong\\\u684C\u9762\\ArcSonglistMigrator\\Song.cs",
               "RelativeDocumentMoniker": "Song.cs",
               "ToolTip": "C:\\Users\\SweelLong\\\u684C\u9762\\ArcSonglistMigrator\\Song.cs",
               "RelativeToolTip": "Song.cs",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAADgAAAALAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-01T11:20:15.069Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "RootObject.cs",
               "DocumentMoniker": "C:\\Users\\SweelLong\\\u684C\u9762\\ArcSonglistMigrator\\RootObject.cs",
               "RelativeDocumentMoniker": "RootObject.cs",
               "ToolTip": "C:\\Users\\SweelLong\\\u684C\u9762\\ArcSonglistMigrator\\RootObject.cs",
               "RelativeToolTip": "RootObject.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAbAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T10:50:02.518Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-01T10:50:02.518Z"
             },
             {
               "$type": "Document",
@@ -91,7 +74,7 @@
               "RelativeDocumentMoniker": "Program.cs",
               "ToolTip": "C:\\Users\\SweelLong\\\u684C\u9762\\ArcSonglistMigrator\\Program.cs",
               "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAADcAAABfAAAAAAAAAA==",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAAAE8AAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-01T09:24:59.888Z",
               "EditorCaption": ""

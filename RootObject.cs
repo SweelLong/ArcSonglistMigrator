@@ -1,7 +1,10 @@
 ﻿namespace ArcSonglistMigrator
 {
+    /// <summary>
+    /// Special list.
+    /// </summary>
     public class RootObject
     {
-        public List<Song> songs { get; set; }
+        public required List<Song> songs { get; set; }
     }
 }
