@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "HITlOloPA84=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\SweelLong\\桌面\\ArcSonglistMigrator\\ArcSonglistMigrator.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\SweelLong\\.nuget\\packages\\microsoft.net.illink.tasks\\9.0.2\\microsoft.net.illink.tasks.9.0.2.nupkg.sha512",
+    "C:\\Users\\SweelLong\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\9.0.2\\microsoft.netcore.app.runtime.win-x64.9.0.2.nupkg.sha512",
+    "C:\\Users\\SweelLong\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\9.0.2\\microsoft.windowsdesktop.app.runtime.win-x64.9.0.2.nupkg.sha512",
+    "C:\\Users\\SweelLong\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\9.0.2\\microsoft.aspnetcore.app.runtime.win-x64.9.0.2.nupkg.sha512"
+  ],
+  "logs": []
+}

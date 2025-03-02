@@ -1,0 +1,2 @@
+C:\Users\SweelLong\桌面\ArcSonglistMigrator\bin\Release\net9.0\publish\win-x64\ArcSonglistMigrator.pdb
+C:\Users\SweelLong\桌面\ArcSonglistMigrator\bin\Release\net9.0\publish\win-x64\ArcSonglistMigrator.exe

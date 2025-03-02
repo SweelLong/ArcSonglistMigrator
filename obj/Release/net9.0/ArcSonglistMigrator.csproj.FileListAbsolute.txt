@@ -1,0 +1,14 @@
+C:\Users\SweelLong\桌面\ArcSonglistMigrator\bin\Release\net9.0\ArcSonglistMigrator.exe
+C:\Users\SweelLong\桌面\ArcSonglistMigrator\bin\Release\net9.0\ArcSonglistMigrator.deps.json
+C:\Users\SweelLong\桌面\ArcSonglistMigrator\bin\Release\net9.0\ArcSonglistMigrator.runtimeconfig.json
+C:\Users\SweelLong\桌面\ArcSonglistMigrator\bin\Release\net9.0\ArcSonglistMigrator.dll
+C:\Users\SweelLong\桌面\ArcSonglistMigrator\bin\Release\net9.0\ArcSonglistMigrator.pdb
+C:\Users\SweelLong\桌面\ArcSonglistMigrator\obj\Release\net9.0\ArcSonglistMigrator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\SweelLong\桌面\ArcSonglistMigrator\obj\Release\net9.0\ArcSonglistMigrator.AssemblyInfoInputs.cache
+C:\Users\SweelLong\桌面\ArcSonglistMigrator\obj\Release\net9.0\ArcSonglistMigrator.AssemblyInfo.cs
+C:\Users\SweelLong\桌面\ArcSonglistMigrator\obj\Release\net9.0\ArcSonglistMigrator.csproj.CoreCompileInputs.cache
+C:\Users\SweelLong\桌面\ArcSonglistMigrator\obj\Release\net9.0\ArcSonglistMigrator.dll
+C:\Users\SweelLong\桌面\ArcSonglistMigrator\obj\Release\net9.0\refint\ArcSonglistMigrator.dll
+C:\Users\SweelLong\桌面\ArcSonglistMigrator\obj\Release\net9.0\ArcSonglistMigrator.pdb
+C:\Users\SweelLong\桌面\ArcSonglistMigrator\obj\Release\net9.0\ArcSonglistMigrator.genruntimeconfig.cache
+C:\Users\SweelLong\桌面\ArcSonglistMigrator\obj\Release\net9.0\ref\ArcSonglistMigrator.dll
